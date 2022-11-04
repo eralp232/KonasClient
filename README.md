@@ -10,7 +10,7 @@
 
 </div>
 
-Konas Client's source code and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.)
+Konas Client's source code, website and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.)
 
 # [ How to use ]
 
