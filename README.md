@@ -16,7 +16,7 @@ Konas Client's source code and jars can be found here. Konas Client has been dis
 2. Put it into your .minecraft/mods folder. (You may need to put jar to /.minecraft file too.)
 3. Start the game.
 
-# [ credits ]
+# [ Credits ]
 
 </div>
 
