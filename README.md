@@ -6,12 +6,12 @@
 
 # [ Info ]
 
-Konas Client's source code and all jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo.
+Konas Client's source code and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo.
 
 # [ How to Use ]
 
 </div>
 
-1. Download jars from the [releases page](https://github.com/Eralp232/konas-all/releases)
+1. Download the jars from the [releases page](https://github.com/Eralp232/konas-all/releases).
 2. Put it into your .minecraft/mods folder. (You may need to put jar to /.minecraft file too.)
-3. Start the game
+3. Start the game.
