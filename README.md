@@ -2,6 +2,10 @@
 
 # KonasClient Archive 
 
+# [ Info ]
+
+All source codes and jars of KonasClient are archived here. KonasClient is no longer updated (like 1 years), so you can see it here as official public konas repo.
+
 # [ How to Use ]
 
 </div>
