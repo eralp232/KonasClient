@@ -25,7 +25,7 @@ Konas Client's source code, website and jars can be found here. Konas Client has
 </div>
 
 + [Konas developers](https://konasclient.com) - Making the client.
-+ [PlutoSolutions](https://github.com/PlutoSolutions) - Cracking, deobfing and more. (
++ [PlutoSolutions](https://github.com/PlutoSolutions) - Cracking, deobfing and more. 
 + [Gopro336](https://github.com/The-Gopro336-Archive/Konas-Deobf-Remap) - Remapping, deobfing and source code.
 + [Eralp232](https://github.com/Eralp232) - Collecting and archiving all the files.
 
