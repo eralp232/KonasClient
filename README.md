@@ -19,7 +19,5 @@ Konas Client's source code and jars can be found here. Konas Client has been dis
 # [ Credits ]
 
 Z1RVE - Uploading konas source code.
-
 Eralp232 - Collecting all the jars and source code and creating the repository.
-
 Darki - Making the client.
