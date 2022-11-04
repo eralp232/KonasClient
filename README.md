@@ -4,7 +4,7 @@
 
 # [ Info ]
 
-All source codes and jars of KonasClient are archived here. KonasClient is no longer updated (like 1 years), so you can see it here as official public konas repo.
+KonasClient's source code and all jars can be found here. KonasClient is discontinued like 1 years, so you can see it here as official public konas repo.
 
 # [ How to Use ]
 
