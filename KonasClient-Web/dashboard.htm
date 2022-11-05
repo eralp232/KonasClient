@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Konas Client | Dashboard</title>
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Konas Utility Mod">
+<meta name="twitter:description" content="Konas Utility Mod is a paid Forge Mod aimed at Anarchy Servers">
+<meta name="twitter:image" content="img/konas-logo.png">
+
+<meta name="keywords" content="Minecraft, Minecraft, utility, mod, utility mod, client, utility client, Utility Mod, Utility Client, Mod, Utility, Client, Minecraft utility mod">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta itemprop="name" content="Konas Utility Mod">
+<meta itemprop="description" content="Konas Utility Mod is a paid Forge Mod aimed at Anarchy Servers">
+<meta itemprop="image" content="img/konas-logo.png">
+
+<script src="https://kit.fontawesome.com/d5536945b2.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="../img/konas-logo-favicon.ico" type="image/png">
+<link rel="stylesheet" href="../styles/main.css" />
+
+<link rel="stylesheet" href="../styles/elements/navbar.css" />
+<link rel="stylesheet" href="../styles/elements/section.css" />
+<link rel="stylesheet" href="../styles/elements/form.css" />
+<link rel="stylesheet" href="../styles/pages/dashboard.css" />
+<link rel="stylesheet" href="../styles/elements/footer.css" />
+</head>
+<body>
+<nav class="navbar">
+<ul class="nav-links">
+<li><img src="../img/konas-logo.png" alt="konas-logo" id="image" width="60"></li>
+<li><a href="/">Home</a></li>
+<li><a href="/changelog.html">Changelog</a></li>
+<li><a href="/buy">Purchase</a></li>
+<li><a href="/logout">Logout</a></li>
+</ul>
+</nav>
+<div class="container">
+<div class="section-body">
+<h1 id="title">Download</h1>
+<a href="/download">
+<button id="download">konas.jar</button>
+</a>
+</div>
+<div class="section-body">
+<form method="post">
+<input type="hidden" id="type" name="type" value="password">
+<h1>Reset Password</h1>
+<label for="username">Username</label><br>
+<input placeholder="LeGentleman" type="text" id="username" name="username" value="LeGentleman" readonly>
+<label for="currentpassword">Current Password</label>
+<input type="password" id="currentpassword" name="currentpassword">
+<label for="password">New Password</label>
+<input type="password" id="password" name="password">
+<label for="confirmpassword">Confirm New Password</label>
+<input type="password" id="confirmpassword" name="confirmpassword">
+<button type="submit" id="update" class="button">Update</button>
+<p id="error" class="error"></p>
+</form>
+</div>
+<div class="section-body">
+<form method="post">
+<input type="hidden" id="type" name="type" value="mc">
+<h1>Minecraft</h1>
+<label for="username">Minecraft Name</label><br>
+<input placeholder="" type="text" id="mcname" name="minecraftname"><br>
+<button type="submit" id="linkmc" class="button">Link</button>
+<p id="error2" class="error"></p>
+</form>
+</div>
+<div class="section-body">
+<form method="post">
+<input type="hidden" id="type" name="type" value="discord">
+<h1>Discord</h1>
+<label for="username">Currently Linked: Gentleman</label>
+<button type="submit" id="linkdc">Link</button>
+<h7>Not a member of our <a href="https://discord.gg/gpVZ4Y6cpq" target="_blank">Discord Server</a>?</h7>
+<p id="error3" class="error"></p>
+</form>
+</div>
+</div>
+<div class="footer">
+<div class="footer-sec-1">Copyright &copy; 2021 konasclient.com | All Rights Reserved.</div>
+<div class="footer-sec-3">Designed by <a href="https://github.com/seasnail8169" target="_blank">seasnail8169</a>.
+</div>
+</div>
+</body>
+</html>

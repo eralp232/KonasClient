@@ -1,0 +1,44 @@
+.card-container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card-outer {
+  width: 50%;
+  padding: 20px;
+}
+
+.card-inner {
+  border: 1.5px solid #00000000;
+  height: 100%;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card-inner:hover {
+  border: var(--accent);
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+.card-inner p {
+  margin-top: 7px;
+}
+
+@media screen and (max-width: 1100px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .card-outer {
+    width: 100%;
+    min-height: 150px;
+  }
+  .card-inner {
+    padding: 25px;
+  }
+}
