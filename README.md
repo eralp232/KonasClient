@@ -1,7 +1,8 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/3arthqu4ke/3arthh4ck/badge/main)](https://www.codefactor.io/repository/github/3arthqu4ke/3arthh4ck/overview/main)
-[![GitHub All Releases](https://img.shields.io/github/downloads/3arthqu4ke/3arthh4ck/total.svg)](https://github.com/Eralp232/KonasClient/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/Eralp232/KonasClient/total.svg)](https://github.com/Eralp232/KonasClient/releases)
 ![Repo size](https://img.shields.io/github/repo-size/Eralp232/KonasClient.svg)
+![Code](https://tokei.rs/b1/github/Eralp232/KonasClient?category=code)
 
 <div align="center">
 <img src ="https://i.imgur.com/QiDjFLC.png" width="10%" height="10%"/>
