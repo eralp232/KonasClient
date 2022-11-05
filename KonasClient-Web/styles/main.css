@@ -1,0 +1,61 @@
+:root {
+  --links: #d62976;
+  --konas: #0e0027;
+  --background-light: #e1e1e1;
+  --background-dark: #3d3d3d;
+  --background-grey: #5f5f5f;
+  --background-light-grey: #dfdfdf;
+  --headers-dark: #212121;
+  --headers-light: #d0d0d0;
+  --text-dark: #3d3d3d;
+  --text-darker: #272727;
+  --text-light: #eaeaea;
+  --text-alt: #8c8c8c;
+  --seasnail: #fff791;
+  --error: #ff0000;
+  --discord: #7388da;
+  --paypal: #026fba;
+  --youtube: #ff0201;
+  --pink: #ff4081;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Calibri", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  color: var(--error);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+}

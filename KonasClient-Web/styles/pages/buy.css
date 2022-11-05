@@ -1,0 +1,33 @@
+body {
+    background-image: url(/img/bright-squares.png);
+    display: flex;
+    align-items: center;
+}
+
+.card-container {
+    justify-content: center;
+    height: 100%;
+}
+
+.card-inner {
+    background-color: var(--konas);
+    color: var(--text-light);
+}
+
+.button {
+    margin-top: 2vh;
+    font-weight: bold;
+}
+
+p {
+    padding-top: 1vh;
+    font-size: x-small;
+}
+
+a {
+    color: aqua;
+}
+
+#success {
+    font-size: medium;
+}

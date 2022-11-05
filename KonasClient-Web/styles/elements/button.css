@@ -1,0 +1,23 @@
+.button-container {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: #ff0e62;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 2vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 2em;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  opacity: 0.8;
+}

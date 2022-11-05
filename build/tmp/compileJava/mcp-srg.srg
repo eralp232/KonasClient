@@ -1,0 +1,55 @@
+FD: me/darki/konas/mixin/mixins/MixinBlockStateContainerStateImplementation/block me/darki/konas/mixin/mixins/MixinBlockStateContainerStateImplementation/field_177239_a
+FD: me/darki/konas/mixin/mixins/MixinC00Handshake/protocolVersion me/darki/konas/mixin/mixins/MixinC00Handshake/field_149600_a
+FD: me/darki/konas/mixin/mixins/MixinC00Handshake/ip me/darki/konas/mixin/mixins/MixinC00Handshake/field_149598_b
+FD: me/darki/konas/mixin/mixins/MixinC00Handshake/port me/darki/konas/mixin/mixins/MixinC00Handshake/field_149599_c
+FD: me/darki/konas/mixin/mixins/MixinC00Handshake/requestedState me/darki/konas/mixin/mixins/MixinC00Handshake/field_149597_d
+FD: me/darki/konas/mixin/mixins/MixinEntity/entityId me/darki/konas/mixin/mixins/MixinEntity/field_145783_c
+FD: me/darki/konas/mixin/mixins/MixinEntity/isInWeb me/darki/konas/mixin/mixins/MixinEntity/field_70134_J
+FD: me/darki/konas/mixin/mixins/MixinEntity/motionX me/darki/konas/mixin/mixins/MixinEntity/field_70159_w
+FD: me/darki/konas/mixin/mixins/MixinEntity/motionY me/darki/konas/mixin/mixins/MixinEntity/field_70181_x
+FD: me/darki/konas/mixin/mixins/MixinEntity/motionZ me/darki/konas/mixin/mixins/MixinEntity/field_70179_y
+FD: me/darki/konas/mixin/mixins/MixinEntityPlayerSP/mc me/darki/konas/mixin/mixins/MixinEntityPlayerSP/field_71159_c
+FD: me/darki/konas/mixin/mixins/MixinEntityPlayerSP/connection me/darki/konas/mixin/mixins/MixinEntityPlayerSP/field_71174_a
+FD: me/darki/konas/mixin/mixins/MixinEntityPlayerSP/movementInput me/darki/konas/mixin/mixins/MixinEntityPlayerSP/field_71158_b
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/randomStyle me/darki/konas/mixin/mixins/MixinFontRenderer/field_78303_s
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/boldStyle me/darki/konas/mixin/mixins/MixinFontRenderer/field_78302_t
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/strikethroughStyle me/darki/konas/mixin/mixins/MixinFontRenderer/field_78299_w
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/underlineStyle me/darki/konas/mixin/mixins/MixinFontRenderer/field_78300_v
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/italicStyle me/darki/konas/mixin/mixins/MixinFontRenderer/field_78301_u
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/unicodeFlag me/darki/konas/mixin/mixins/MixinFontRenderer/field_78293_l
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/textColor me/darki/konas/mixin/mixins/MixinFontRenderer/field_78304_r
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/red me/darki/konas/mixin/mixins/MixinFontRenderer/field_78291_n
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/green me/darki/konas/mixin/mixins/MixinFontRenderer/field_78306_p
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/blue me/darki/konas/mixin/mixins/MixinFontRenderer/field_78292_o
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/alpha me/darki/konas/mixin/mixins/MixinFontRenderer/field_78305_q
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/posX me/darki/konas/mixin/mixins/MixinFontRenderer/field_78295_j
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/posY me/darki/konas/mixin/mixins/MixinFontRenderer/field_78296_k
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/fontRandom me/darki/konas/mixin/mixins/MixinFontRenderer/field_78289_c
+FD: me/darki/konas/mixin/mixins/MixinFontRenderer/colorCode me/darki/konas/mixin/mixins/MixinFontRenderer/field_78285_g
+FD: me/darki/konas/mixin/mixins/MixinGuiChat/inputField me/darki/konas/mixin/mixins/MixinGuiChat/field_146415_a
+FD: me/darki/konas/mixin/mixins/MixinGuiMainMenu/realmsButton me/darki/konas/mixin/mixins/MixinGuiMainMenu/field_175372_K
+FD: me/darki/konas/mixin/mixins/MixinKeyBinding/pressed me/darki/konas/mixin/mixins/MixinKeyBinding/field_74513_e
+FD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/blockHitDelay me/darki/konas/mixin/mixins/MixinPlayerControllerMP/field_78781_i
+FD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/curBlockDamageMP me/darki/konas/mixin/mixins/MixinPlayerControllerMP/field_78770_f
+FD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/mc me/darki/konas/mixin/mixins/MixinPlayerControllerMP/field_78776_a
+FD: me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/modelEnderCrystal me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/field_76995_b
+FD: me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/modelEnderCrystalNoBase me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/field_188316_g
+FD: me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/ENDER_CRYSTAL_TEXTURES me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/field_110787_a
+FD: me/darki/konas/mixin/mixins/MixinRenderLivingBase/mainModel me/darki/konas/mixin/mixins/MixinRenderLivingBase/field_77045_g
+MD: me/darki/konas/mixin/mixins/MixinAbstractClientPlayer/getPlayerInfo ()Lnet/minecraft/client/network/NetworkPlayerInfo; me/darki/konas/mixin/mixins/MixinAbstractClientPlayer/func_175155_b ()Lnet/minecraft/client/network/NetworkPlayerInfo;
+MD: me/darki/konas/mixin/mixins/MixinEntity/move (Lnet/minecraft/entity/MoverType;DDD)V me/darki/konas/mixin/mixins/MixinEntity/func_70091_d (Lnet/minecraft/entity/MoverType;DDD)V
+MD: me/darki/konas/mixin/mixins/MixinEntity/equals (Ljava/lang/Object;)Z me/darki/konas/mixin/mixins/MixinEntity/equals (Ljava/lang/Object;)Z
+MD: me/darki/konas/mixin/mixins/MixinEntity/getEntityId ()I me/darki/konas/mixin/mixins/MixinEntity/func_145782_y ()I
+MD: me/darki/konas/mixin/mixins/MixinFontRenderer/getCharWidth (C)I me/darki/konas/mixin/mixins/MixinFontRenderer/func_78263_a (C)I
+MD: me/darki/konas/mixin/mixins/MixinFontRenderer/renderChar (CZ)F me/darki/konas/mixin/mixins/MixinFontRenderer/func_181559_a (CZ)F
+MD: me/darki/konas/mixin/mixins/MixinFontRenderer/renderStringAtPos (Ljava/lang/String;Z)V me/darki/konas/mixin/mixins/MixinFontRenderer/func_78255_a (Ljava/lang/String;Z)V
+MD: me/darki/konas/mixin/mixins/MixinFontRenderer/getStringWidth (Ljava/lang/String;)I me/darki/konas/mixin/mixins/MixinFontRenderer/func_78256_a (Ljava/lang/String;)I
+MD: me/darki/konas/mixin/mixins/MixinItemRenderer/transformFirstPerson (Lnet/minecraft/util/EnumHandSide;F)V me/darki/konas/mixin/mixins/MixinItemRenderer/func_187453_a (Lnet/minecraft/util/EnumHandSide;F)V
+MD: me/darki/konas/mixin/mixins/MixinItemRenderer/transformSideFirstPerson (Lnet/minecraft/util/EnumHandSide;F)V me/darki/konas/mixin/mixins/MixinItemRenderer/func_187459_b (Lnet/minecraft/util/EnumHandSide;F)V
+MD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/syncCurrentPlayItem ()V me/darki/konas/mixin/mixins/MixinPlayerControllerMP/func_78750_j ()V
+MD: me/darki/konas/mixin/mixins/MixinPlayerControllerMP/getBlockReachDistance ()F me/darki/konas/mixin/mixins/MixinPlayerControllerMP/func_78757_d ()F
+MD: me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/doRender (Lnet/minecraft/entity/item/EntityEnderCrystal;DDDFF)V me/darki/konas/mixin/mixins/MixinRenderEnderCrystal/func_76986_a (Lnet/minecraft/entity/item/EntityEnderCrystal;DDDFF)V
+MD: me/darki/konas/mixin/mixins/MixinRenderLivingBase/renderModel (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V me/darki/konas/mixin/mixins/MixinRenderLivingBase/func_77036_a (Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V
+MD: me/darki/konas/mixin/mixins/MixinRenderLivingBase/isVisible (Lnet/minecraft/entity/EntityLivingBase;)Z me/darki/konas/mixin/mixins/MixinRenderLivingBase/func_193115_c (Lnet/minecraft/entity/EntityLivingBase;)Z
+MD: me/darki/konas/mixin/mixins/MixinRenderPlayer/getMainModel ()Lnet/minecraft/client/model/ModelPlayer; me/darki/konas/mixin/mixins/MixinRenderPlayer/func_177087_b ()Lnet/minecraft/client/model/ModelPlayer;
+MD: me/darki/konas/mixin/mixins/MixinRenderPlayer/setModelVisibilities (Lnet/minecraft/client/entity/AbstractClientPlayer;)V me/darki/konas/mixin/mixins/MixinRenderPlayer/func_177137_d (Lnet/minecraft/client/entity/AbstractClientPlayer;)V

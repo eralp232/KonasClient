@@ -1,0 +1,31 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  background: var(--konas);
+  color: var(--text-light);
+  padding: 1vh;
+}
+
+.footer a {
+  color: var(--seasnail);
+}
+
+@media screen and (max-width: 1300px) {
+  #footer .footer-body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .form-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #footer .footer-body .footer-section {
+    padding: 20px;
+    font-size: 13px;
+  }
+}
