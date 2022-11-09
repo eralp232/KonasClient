@@ -16,7 +16,7 @@
 
 </div>
 
-Konas Client's source code, website src and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.) The GUI on the left is an image from b0.8. If you like this gui more, you can try versions [0.10.2](https://github.com/Eralp232/KonasClient/releases/tag/0.10.2) and below. Or if you like the gui on the right, you can try [v1.0.1](https://github.com/Eralp232/KonasClient/releases/tag/1.0.1) and below, [1.0.2](https://github.com/Eralp232/KonasClient/releases/tag/1.0.2) has hwid so you can only use 1.0.1.
+Konas Client's source code, website src and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.) The GUI on the left is an screenshot from [v0.8.](https://github.com/Eralp232/KonasClient/releases/tag/0.8) If you like this gui more, you can try versions [0.10.2](https://github.com/Eralp232/KonasClient/releases/tag/0.10.2) and below. Or if you like the gui on the right, you can try [v1.0.1](https://github.com/Eralp232/KonasClient/releases/tag/1.0.1) and below, 1.0.2 has hwid so you can only use 1.0.1.
 
 # [ How to use ]
 
