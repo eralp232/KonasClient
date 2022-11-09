@@ -1,4 +1,4 @@
-
+<p align="center">
 [![GitHub All Releases](https://img.shields.io/github/downloads/Eralp232/KonasClient/total.svg)](https://github.com/Eralp232/KonasClient/releases)
 ![Repo size](https://img.shields.io/github/repo-size/Eralp232/KonasClient.svg)
 
