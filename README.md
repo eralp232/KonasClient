@@ -9,6 +9,9 @@
 
 </div>
 
+# [ Konas Client Clickgui | Old And New Base ]
+https://cdn.discordapp.com/attachments/909158122990469150/1000438366426378261/unknown.png
+
 # [ Info ]
 
 </div>
