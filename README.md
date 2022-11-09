@@ -36,5 +36,3 @@ Konas Client's source code, website src and jars can be found here. Konas Client
 + [Gopro336](https://github.com/The-Gopro336-Archive/Konas-Deobf-Remap) - Remapping, deobfing and source code.
 + [Eralp232](https://github.com/Eralp232) - Collecting and archiving all the files.
 + [GentlemanMC](https://github.com/GentlemanMC) - KonasClient website source.
-
-- **In addition, thanks to other unknown developers who cracked Konas.**
