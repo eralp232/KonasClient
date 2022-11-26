@@ -31,7 +31,7 @@ Konas Client's source code, website src and jars can be found here. Konas Client
 </div>
 
 + [Konas developers](https://konasclient.com) - Making the client.
-+ [PlutoSolutions](https://github.com/PlutoSolutions) - Cracking the 0.10.2 and 1.0.1 versions of KonasClient.
++ [PlutoSolutions](https://github.com/PlutoSolutions) - Cracking 0.10.2 and 1.0.1 versions of KonasClient.
 + [chris2rich](https://github.com/chris2rich/konas) - Fixing Konas 0.8 and making it useful.
 + [Gopro336](https://github.com/The-Gopro336-Archive/Konas-Deobf-Remap) - Remapping, deobfing and source code.
 + [Eralp232](https://github.com/Eralp232) - Collecting & archiving, editing some konas jars. 
