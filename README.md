@@ -16,7 +16,7 @@
 
 </div>
 
-[![Github & Showcase](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=ayVm1KYNGJw)
+[![Github & Showcase](https://cdn.discordapp.com/attachments/1048922338596503622/1048924323261456396/image.png)](https://www.youtube.com/watch?v=ayVm1KYNGJw)
 
 # [ Info ]
 
