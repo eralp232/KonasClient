@@ -13,6 +13,9 @@
 ![](https://cdn.discordapp.com/attachments/903364558016639036/1039898101676261417/imgonline-com-ua-twotoone-9xRw3yjgz8h.jpg)
 
 # [ Github & Showcase ]
+
+</div>
+
 <object width="425" height="350">
   <param name="movie" value="https://www.youtube.com/watch?v=ayVm1KYNGJw" />
   <param name="wmode" value="transparent" />
@@ -20,6 +23,7 @@
          type="application/x-shockwave-flash"
          wmode="transparent" width="425" height="350" />
 </object>
+
 # [ Info ]
 
 </div>
