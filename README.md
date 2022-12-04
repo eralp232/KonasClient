@@ -12,9 +12,14 @@
 # [ KonasClient Clickgui (Old & New) ]
 ![](https://cdn.discordapp.com/attachments/903364558016639036/1039898101676261417/imgonline-com-ua-twotoone-9xRw3yjgz8h.jpg)
 
-# [ Showcase ]
-https://www.youtube.com/watch?v=ayVm1KYNGJw
-
+# [ Github & Showcase ]
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/watch?v=ayVm1KYNGJw" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=ayVm1KYNGJw"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
 # [ Info ]
 
 </div>
