@@ -12,6 +12,9 @@
 # [ KonasClient Clickgui (Old & New) ]
 ![](https://cdn.discordapp.com/attachments/903364558016639036/1039898101676261417/imgonline-com-ua-twotoone-9xRw3yjgz8h.jpg)
 
+# [ Showcase ]
+![](https://www.youtube.com/watch?v=ayVm1KYNGJw)
+
 # [ Info ]
 
 </div>
