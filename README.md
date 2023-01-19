@@ -10,7 +10,7 @@
 </div>
 
 # [ KonasClient Clickgui (Old & New) ]
-![](https://cdn.discordapp.com/attachments/903364558016639036/1039898101676261417/imgonline-com-ua-twotoone-9xRw3yjgz8h.jpg)
+![](https://cdn.discordapp.com/attachments/957729827224449054/1041062487426093298/ds.jpg)
 
 # [ Info ]
 
