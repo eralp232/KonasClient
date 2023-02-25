@@ -28,7 +28,7 @@
 - Added .notify command - this is similar to the .drawn command and lets you disable notifications for modules
 
 ### 1.0.1 Changes (NEWBASE)
-- Ported Raion Config System (Raion is a client we acquired full rights to after it was discontinued in late 2020)
+- Ported Raion Config System (Raion is a client we acquired full rights to after it was discontinued in late 2020.)
 - Added Raion GUI theme
 - Added Mercury GUI theme
 - Ported Raion Crasher module, along with some small misc modules and features
