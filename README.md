@@ -37,19 +37,15 @@ Start the game, with `1.12.2 Forge`
 # Information
 Konas Client has been discontinued for quite some time now, so this repository will essentially serve as an official
 repository for Konas Client.
+- https://konasclient.com
 
 <br/>
 
 # Credits
 
-[The Konas Development Team](https://konasclient.com)
-
-[PlutoSolutions](https://github.com/PlutoSolutions - Cracking Konas versions 0.10.2 and 1.0.1
-
+[PlutoSolutions](https://github.com/PlutoSolutions) - Cracking Konas versions 0.10.2 and 1.0.1
 [Eralp232](https://github.com/Eralp232) - Collecting & archiving and editing some jars.
-
 [Gentleman](https://github.com/GentlemanMC) - Fixing the source code
-
 [surge](https://github.com/surge) - Writing this `README`
 
 </div>
