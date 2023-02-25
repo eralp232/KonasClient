@@ -14,9 +14,8 @@ The following versions are available:
 | -------- | ------- |
 |0.8|Konas without aimware stylized ClickGUI.|
 |0.10-b15|Beta version.|
-|0.10.2|with old ClickGUI|
 |0.10.5|Built from source|
-|1.0.1|Non-hwid version of newbase Konas.|
+|1.0.1|Non-hwid version of New Konas.|
 |Website|konasclient.com website source & and other files.|
 
 <br/>
