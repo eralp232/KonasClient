@@ -37,7 +37,7 @@ Start the game, with `1.12.2 Forge`
 # Information
 Konas Client has been discontinued for quite some time now, so this repository will essentially serve as an official
 repository for Konas Client.
-- https://konasclient.com
+Website: https://konasclient.com
 
 <br/>
 
