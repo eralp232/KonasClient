@@ -36,7 +36,7 @@ Start the game, with `1.12.2 Forge`
 
 # Information
 Konas Client has been discontinued for quite some time now, so this repository will essentially serve as an official
-repository for Konas Client.
+repository for Konas Client. Add "-noverify" to java arguments when using some versions of Konas.
 Website: https://konasclient.com
 
 <br/>
