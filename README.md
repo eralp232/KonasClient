@@ -16,7 +16,7 @@
 
 </div>
 
-Konas Client's source code, website src and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.) If you dont know how to add -noverify to jvm arguments you can join to [Eralp232's Anarchy Community](https://discord.gg/m5xGEZecmZ) (You can learn from here.) The GUI on the left is an screenshot from [v0.8.](https://github.com/Eralp232/KonasClient/releases/tag/0.8) If you like this gui more, you can try versions [v0.10.2](https://github.com/Eralp232/KonasClient/releases/tag/0.10.2) and below. Or if you like the gui on the right, you can try [v1.0.1](https://github.com/Eralp232/KonasClient/releases/tag/1.0.1) and below, 1.0.2 has hwid so you can only use 1.0.1.
+Konas Client's source code, website src and jars can be found here. Konas Client has been discontinued for a pretty long time, So you can see this repo as the official public Konas repo. Also don't forget to add "-noverify" to the jvm arguments. (If you don't add -noverify, konasclient won't work.) If you dont know how to add -noverify to jvm arguments you can join to [Eralp232's Anarchy Community](https://discord.gg/m5xGEZecmZ) (You can learn from here.) The GUI on the left is an screenshot from 0.10.2. If you like this gui more, you can try versions 0.10.2 and below. Or if you like the gui on the right, you can try v1.0.1.
 
 + [Client Showcase](https://www.youtube.com/watch?v=ayVm1KYNGJw)
 
@@ -35,6 +35,5 @@ Konas Client's source code, website src and jars can be found here. Konas Client
 + [Konas Developers](https://konasclient.com) - Making the client.
 + [PlutoSolutions](https://github.com/PlutoSolutions) - Cracking 0.10.2 and 1.0.1 versions of KonasClient.
 + [chris2rich](https://github.com/chris2rich/konas) - Fixing Konas 0.8 and making it useful.
-+ [Gopro336](https://github.com/The-Gopro336-Archive/Konas-Deobf-Remap) - Remapping, deobfing and source code.
-+ [Eralp232](https://github.com/Eralp232) - Collecting & archiving, editing some konas jars. 
-+ [Ai2473](https://github.com/Ai2473) - For making a showcase for this github.
++ [Eralp232](https://github.com/Eralp232) - Collecting & archiving, fixing some konas jars. 
++ [GentlemanMC](https://github.com/GentlemanMC) - Fixing the source code of KonasClient.
