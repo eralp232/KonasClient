@@ -2,7 +2,7 @@
     <img src ="https://i.imgur.com/QiDjFLC.png" width="10%" height="10%"/>
 
 # Konas Client 
-A collection of the releases and sources of the Konas Client
+A collection of the releases and sources of the Konas Client.
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/Eralp232/KonasClient/total?style=for-the-badge)](https://github.com/Eralp232/KonasClient/releases)
 ![Repo size](https://img.shields.io/github/repo-size/Eralp232/KonasClient?style=for-the-badge)
