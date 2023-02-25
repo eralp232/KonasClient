@@ -1,6 +1,5 @@
 package me.darki.konas.module;
 
-import com.viaversion.viafabric.ViaFabric;
 import cookiedragon.eventsystem.EventDispatcher;
 import me.darki.konas.command.Command;
 import me.darki.konas.module.modules.client.Notify;
@@ -146,7 +145,7 @@ public abstract class Module {
     }
 
     public void toggle() {
-        if (!enabled && isProtocolValid()) {
+        if (!enabled) {
             EventDispatcher.Companion.subscribe(this);
             this.enabled = true;
             onEnable();
@@ -196,16 +195,6 @@ public abstract class Module {
     public void setProtocolRange(int minProtocol, int maxProtocol) {
         this.minProtocol = minProtocol;
         this.maxProtocol = maxProtocol;
-    }
-
-    public boolean isProtocolValid() {
-        if (ViaFabric.clientSideVersion < minProtocol) {
-            return false;
-        } else if (ViaFabric.clientSideVersion > maxProtocol) {
-            return false;
-        } else {
-            return true;
-        }
     }
 
     public int getMinProtocol() {

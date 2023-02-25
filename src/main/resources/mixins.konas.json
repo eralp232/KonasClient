@@ -62,7 +62,6 @@
     "MixinGuiBossOverlay",
     "MixinGuiChat",
     "MixinGuiIngame",
-    "MixinGuiMainMenu",
     "MixinGuiNewChat",
     "MixinGuiPlayerTabOverlay",
     "MixinGuiScreen",
@@ -77,7 +76,6 @@
     "MixinNetHandlerPlayClient",
     "MixinNettyCompressionDecoder",
     "MixinNetworkManager",
-    "MixinNetworkManagerChInit",
     "MixinParticleManager",
     "MixinPlayerControllerMP",
     "MixinRender",
@@ -93,8 +91,5 @@
     "MixinVisGraph",
     "MixinWorld",
     "MixinWorldClient"
-  ],
-  "client": [
-    "MixinGuiMultiplayer"
   ]
 }

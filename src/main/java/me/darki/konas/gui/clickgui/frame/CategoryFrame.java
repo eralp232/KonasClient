@@ -293,9 +293,7 @@ public class CategoryFrame extends Frame {
         ArrayList<Component> enabledComponents = new ArrayList<>();
         for (Component component : getComponents()) {
             if (component instanceof ModuleComponent) {
-                if (((ModuleComponent) component).getModule().isProtocolValid()) {
-                    enabledComponents.add(component);
-                }
+                enabledComponents.add(component);
             } else {
                 enabledComponents.add(component);
             }

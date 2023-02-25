@@ -11,9 +11,9 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = KonasMod.ID, name = KonasMod.NAME, version = KonasMod.VERSION)
 public class KonasMod {
 
-    public static final String ID = "yoinkhack";
-    public static final String NAME = "yoinkhack";
-    public static final String VERSION = "0.10-b15";
+    public static final String ID = "konas";
+    public static final String NAME = "Konas";
+    public static final String VERSION = "b0.10.5";
 
     public static final Logger LOGGER = LogManager.getLogger(NAME);
 

@@ -1,7 +1,6 @@
 package me.darki.konas.module.modules.misc;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import cookiedragon.eventsystem.EventDispatcher;
 import cookiedragon.eventsystem.Subscriber;
 import me.darki.konas.command.Command;
@@ -19,6 +18,8 @@ import net.minecraftforge.client.event.ClientChatReceivedEvent;
 
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class ExtraChat extends Module {
 
@@ -47,6 +48,30 @@ public class ExtraChat extends Module {
     private final Setting<Boolean> brackets = new Setting<>("Brackets", true).withVisibility(chatTimestamps::getValue);
 
     private Random random = new Random();
+
+    private static Optional<Map.Entry<String, String>> parseChatMessage(String messageRaw) {
+
+        Matcher matcher = Pattern.compile("^<(" + "[a-zA-Z0-9_]{3,16}" + ")> (.+)$").matcher(messageRaw);
+
+        String senderName = null;
+        String message = null;
+
+        while (matcher.find()) {
+            senderName = matcher.group(1);
+            message = matcher.group(2);
+        }
+
+        if (senderName == null || senderName.isEmpty()) {
+            return Optional.empty();
+        }
+
+        if (message == null || message.isEmpty()) {
+            return Optional.empty();
+        }
+
+        return Optional.of(new AbstractMap.SimpleEntry<>(senderName, message));
+    }
+
 
     public static final ArrayList<String> TAUNTS = new ArrayList<>();
     public static final ArrayList<String> GROOMS = new ArrayList<>();
@@ -78,7 +103,7 @@ public class ExtraChat extends Module {
     public void onChat(ClientChatReceivedEvent event) {
 
         if(antiRacism.getValue() && (event.getMessage().getUnformattedText().toLowerCase().contains("nigger") || event.getMessage().getUnformattedText().toLowerCase().contains("nigga"))) {
-            Optional<Map.Entry<String, String>> parsedMessage = KonasChat.parseChatMessage(event.getMessage().getUnformattedText());
+            Optional<Map.Entry<String, String>> parsedMessage = this.parseChatMessage(event.getMessage().getUnformattedText());
             if(parsedMessage.isPresent()) {
                 if (embarrass.getValue()) {
                  mc.player.sendChatMessage(parsedMessage.get().getKey() + ", don't be racist");

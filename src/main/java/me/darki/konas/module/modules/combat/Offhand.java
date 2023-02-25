@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
 
 public class Offhand extends Module {
 
-    public Setting<Boolean> totem = new Setting<>("Totem", true).withProtocolRange(315, 1000);
+    public Setting<Boolean> totem = new Setting<>("Totem", true);
     public Setting<Boolean> gapple = new Setting<>("Gapple", true);
     public Setting<Boolean> crystal = new Setting<>("Crystal", true);
 

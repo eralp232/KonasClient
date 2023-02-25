@@ -61,10 +61,6 @@ dependencies {
 
     compile 'club.minnced:java-discord-rpc:2.0.2'
 
-    compile "us.myles:viaversion:3.3.0-21w06a"
-    compile "nl.matsv:viabackwards-all:3.3.0-21w06a"
-    compile "de.gerrygames:viarewind-core:1.5.3"
-
     compile("dev.tigr:emojiapi:1.0") {
         exclude module: 'guava'
         exclude module: 'gson'
@@ -103,9 +99,6 @@ shadowJar {
         include(dependency("club.minnced:java-discord-rpc:2.0.2"))
         include(dependency("dev.tigr:emojiapi"))
         include(dependency("org.yaml:snakeyaml"))
-        include(dependency("us.myles:viaversion"))
-        include(dependency("nl.matsv:viabackwards-all"))
-        include(dependency("de.gerrygames:viarewind-core"))
     }
 
     exclude 'dummyThing'

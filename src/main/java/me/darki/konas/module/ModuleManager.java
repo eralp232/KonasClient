@@ -48,12 +48,6 @@ public class ModuleManager {
 
     public static void handleWorldJoin() {
         for (Module module : modules) {
-            if (!module.isProtocolValid()) {
-                if (module.isEnabled()) {
-                    module.toggle();
-                }
-                EventDispatcher.Companion.unsubscribe(module);
-            }
         }
     }
 

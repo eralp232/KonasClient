@@ -1,6 +1,5 @@
 package me.darki.konas.setting;
 
-import com.viaversion.viafabric.ViaFabric;
 import me.darki.konas.module.Module;
 import me.darki.konas.module.ModuleManager;
 
@@ -117,10 +116,6 @@ public class Setting<T> {
             }
         }
 
-        if (!isProtocolValid()) {
-            return false;
-        }
-
         return visibility.getAsBoolean();
     }
 
@@ -137,30 +132,6 @@ public class Setting<T> {
     public Setting<T> withParent(Setting<Parent> parent) {
         this.parent = parent;
         return this;
-    }
-
-    public Setting<T> withProtocolRange(int minProtocol, int maxProtocol) {
-        this.minProtocol = minProtocol;
-        this.maxProtocol = maxProtocol;
-        return this;
-    }
-
-    public boolean isProtocolValid() {
-        if (ViaFabric.clientSideVersion < minProtocol) {
-            return false;
-        } else if (ViaFabric.clientSideVersion > maxProtocol) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
-    public int getMinProtocol() {
-        return minProtocol;
-    }
-
-    public int getMaxProtocol() {
-        return maxProtocol;
     }
 
     public Module getParentMod() {

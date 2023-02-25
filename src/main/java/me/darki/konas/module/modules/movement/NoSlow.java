@@ -18,7 +18,7 @@ public class NoSlow extends Module {
     private static final Setting<Boolean> glide = new Setting<>("Glide", false);
     private static final Setting<Boolean> strict = new Setting<>("Strict", false);
     private static final Setting<Boolean> airStrict = new Setting<>("AirStrict", false);
-    private static final Setting<Boolean> ncp = new Setting<>("NCP", false).withProtocolRange(4, 47);
+    private static final Setting<Boolean> ncp = new Setting<>("NCP", false);
 
     public NoSlow() {
         super("NoSlow", "Makes you not slow down while i. e. eating", Category.MOVEMENT);
@@ -57,7 +57,7 @@ public class NoSlow extends Module {
 
         if (mc.player.getActiveItemStack().getItem() instanceof ItemBow) return;
 
-        if (ncp.getValue() && mc.player.getHeldItem(EnumHand.MAIN_HAND).getItem() instanceof ItemSword && ncp.isProtocolValid()) {
+        if (ncp.getValue() && mc.player.getHeldItem(EnumHand.MAIN_HAND).getItem() instanceof ItemSword) {
             mc.player.connection.sendPacket(new CPacketPlayerDigging(CPacketPlayerDigging.Action.RELEASE_USE_ITEM, BlockPos.ORIGIN, EnumFacing.DOWN));
         }
     }
@@ -68,7 +68,7 @@ public class NoSlow extends Module {
 
         if (mc.player.getActiveItemStack().getItem() instanceof ItemBow) return;
         
-        if (ncp.getValue() && mc.player.getHeldItem(EnumHand.MAIN_HAND).getItem() instanceof ItemSword && ncp.isProtocolValid()) {
+        if (ncp.getValue() && mc.player.getHeldItem(EnumHand.MAIN_HAND).getItem() instanceof ItemSword) {
             mc.player.connection.sendPacket(new CPacketPlayerTryUseItemOnBlock(new BlockPos(-1, -1, -1), EnumFacing.DOWN, EnumHand.MAIN_HAND, 0, 0, 0));
         }
     }

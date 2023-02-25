@@ -66,7 +66,6 @@ public class NoRender extends Module {
 
     private final Setting<Boolean> beacon = new Setting<>("Beacon", false);
 
-    public static final Setting<Boolean> toast = new Setting<>("Toasts", true);
     private final Setting<Boolean> chat = new Setting<>("Chat", false);
 
     public NoRender() {

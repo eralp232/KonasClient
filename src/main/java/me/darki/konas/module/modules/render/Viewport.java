@@ -32,10 +32,14 @@ public class Viewport extends Module {
     }
 
     public static void project(float oldFovY, float oldAspectRatio, float oldZNear, float oldZFar) {
+        if (mc.player == null || mc.world == null)
+            return;
         project(oldFovY, oldAspectRatio, oldZNear, oldZFar, false);
     }
 
     public static void project(float oldFovY, float oldAspectRatio, float oldZNear, float oldZFar, boolean fromHands) {
+        if (mc.player == null || mc.world == null)
+            return;
         if (INSTANCE.isEnabled() && (!fromHands || hands.getValue())) {
             Project.gluPerspective(fov.getValue() ? angle.getValue() : oldFovY, aspect.getValue() ? ratio.getValue() : oldAspectRatio, oldZNear, oldZFar);
         } else {
