@@ -43,9 +43,13 @@ repository for Konas Client.
 # Credits
 
 [The Konas Development Team](https://konasclient.com)
+
 [PlutoSolutions](https://github.com/PlutoSolutions - Cracking Konas versions 0.10.2 and 1.0.1
+
 [Eralp232](https://github.com/Eralp232) - Collecting & archiving and editing some jars.
+
 [Gentleman](https://github.com/GentlemanMC) - Fixing the source code
+
 [surge](https://github.com/surge) - Writing this `README`
 
 </div>
