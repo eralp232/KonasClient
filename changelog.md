@@ -1,64 +1,157 @@
-## 0.6
-#### Modifications/Improvements
-- Improved YawLock (based on raion's)
-- Added AutoBlock to KillAura
-- Added Spacial rotation mode to CA
-- Added Spacial trace mode to CA
-- Added Place Confirm mode to CA
-- Improved default settings for CA
-- Improved constrict in CA
-- Rewrote accuracy Vanilla/NCP, removed accuracy exact in CA
-- Added efficiency option to CA - this is useful for when you're low on crystals
-- Added limiter option to CA - this limits packets, useful for 2b and const
-- Added delay to AntiWeakness
-- Added packet prioritization system
-- Moved Time module into Sky
-- Added CopyInventory option to FakePlayer
-- Added ExtraSafe option to Offhand
-- Added CSGO option to ESP
-- Added Offhand mode to Swing
-- Added NewChunks
-- Added AutoDisable to Step
-- Added AutoDisable to LongJump
-- Added GhostFix option to FastUse
-- Added Whitelist/Blacklist options to scaffold
-- Added AllowEat to Speed for 2b2t
-- Added "Hook" option to Velocity
-- Added MultiAxis option to PacketFly (lets you fly up/down and horizontally at the same time while phasing)
-- Added SnapEat to ViewModel
-- Added Spacial option to KillAura
+### 1.0.2 Changes
+- Added Emit mode to NoSlow NCPStrict - this bypasses 2b2t’s NoSlow patch, even when you’re on the ground
+- Added .fakeplayermotion command - this sets the FakePlayer’s motion
+- Added NoClip to FakePlayer - allows fake player to go through blocks when it has motion
+- Added Items to Chams
+- Added Hue Speed (Rainbow Speed) to Color Settings - keeping this at 0 makes the color static
+- Added Yaw and Pitch to Pearl Notifications
+- Added MainMenu module - shows a custom main menu
+- Fixed PacketMine render not clamping render size causing instant breakable blocks to render weirdly
+- Added QuickRender option to ESP -> Shaders - this also fixes them rendering above HotBars
+- Re-added and reworked LowHop Speed mode
+- Added OnlyAutoXP option to AutoArmor MendRemove - will only remove armor if you’re using AutoXP
+- Added Sneak option to InventoryMove
+- Improved consistency of Boost ElytraFly on 2b2t
+- Fixed ClickFriends Menu mode not working properly in Freecam
+- Fixed InvMove compatibility issues
 
-#### Fixes
-- Fixed LiquidInteract
-- Fixed sand phase not working on some servers
-- Fixed Nametags outline being transparent
-- Fixed AltManager taking forever to open/login
-- Fixed Velocity NoPush not working in water
-- Fixed KillAura not attacking certain mobs such as Slimes
+### 1.0.1 Changes
+- Fixed ViewModel NoEat not applying to rotations
+- Fixed modules being unbindable to TAB
+- Fixed ChorusDelay preventing you from joining servers
+- Fixed Welcomer config overriding announcer config due to Announcer having "Welcomer" as an alias
+- Fixed Glint Chams crashing
+- Fixed HoleESP Depth Fill not working when nametags are enabled
+- Fixed NameProtect glitching font renderers on other threads
+- Fixed AutoCrystal handling pop packets incorrectly when using other clients which remove entities pre-emptivly
+- Re-added NoForge module
+- Added .notify command - this is similar to the .drawn command and lets you disable notifications for modules
 
-#### New Modules
-- AntiAFK
-- CrystalBlocker
-- TrapMiner (aka AutoCity)
-- AntiHunger
-- AntiChainPop
-- AntiAim (aka SpinBot)
-- AutoFish
-- AntiLevitation
+### 1.0.1 Changes (NEWBASE)
+- Ported Raion Config System (Raion is a client we acquired full rights to after it was discontinued in late 2020.)
+- Added Raion GUI theme
+- Added Mercury GUI theme
+- Ported Raion Crasher module, along with some small misc modules and features
+- Added GetBlock command - this lets you get any block in loaded, unloaded, or ungenerated chunks on most servers
+- Added Strict option to EBackPack - this only lets you re-open your Ender Chest once
+- Added MaxHeight to FastFall
+- Improved SelfFill on 2b2t
+- Separated Interactions into BreakHighlight and separate render settings in each module
+- Merged NoEntityTrace into Reach
+- Added NoGravity to BoatFly
+- Removed NCP Step mode as it no longer works on any major 1.8 NCP server
+- Added Delay and SwapDelay to AutoEat
+- Added ChorusDelay module - delays chorus teleports until the module is disabled
+- Merged OldAnimations and LowHand into Animations module
+- Significantly improved HoleESP performance
+- Merged Trails into Trajectories
+- Added ReduceExposure to Blink Pulse - attempts to blink in less exposed areas to reduce crystal damage
+- Merged VoidESP into AntiVoid
+- Added Book Tooltips
+- Added Strict mode to LongJump
+- Improved reliability of HotbarRefill
+- Improved AntiSpam filter
+- Fixed Anchor rubberbanding a lot, even on non-strict servers
+- Ported Raion Notifications module
+- Fixed Spawns render bug
+- Added Aim options to BowAim
+- Added Totems to HUD
+- Middle Clicking modules in the ClickGUI will now draw/undraw them
+- Added OmniJump to Sprint
+- Added AutoJump to Sprint
+- Fixed AutoTool attacking crystals with swords
+- Added Bucket mode to NoFall
+- Fixed PacketRender rendering in Inventory
+- Added PacketFly mode to AntiVoid - this will automatically enable PacketFly when you’re above the void
+- Added AntiNarrator module
+- Fixed game crashing when loading in near water in SinglePlayer and using Jesus
+- Improved how AltManager handles Invalid Credentials for Migrated accounts
+- Added Exposure HUD Module - this shows the maximum damage any crystal could deal to you where you’re currently standing
+- Added MendRemove to AutoArmor - automatically removes undamaged armor when you mend
+- Added OnlyWhenEFly to AutoArmor ElytraPriority
+- Improved reliability of AntiSurround
+- Added UseTimer option to AutoWalk
+- Fixed AltManager duplicating alt accounts if reopened after reloading resources (F3 + T)
+- Added Animate option to NewChunks - makes chunks “rise” as they’re loaded in
+- Added RusherAds option to AntiSpam
+- Added EChest Off, Only, and Backup modes to Surround
+- Fixed Force in Surround being very inconsistent when placing blocks under you
+- Made .watermark command change the window title
+- Added .openfolder command
+- Added Welcomer HUD Module
+Added @serverip to configs and kits - config and kit names that start with an @ will load when joining a server with the same ip as the kit name
 
-#### New Commands
-- yaw
-- macro
-- fov
-- grab
-- hclip
-- vclip
-- teleport
-- vanish
-- config
+### 0.10.2 Changes
+- Re-Added AutoDisable option to Surround
+- Removed CrystalBlocker, DuelWinner, InvCleaner, and SantaESP
+- Added HandOnly option to HotbarRefill
+- Improved AutoArmor
+- Merged NoWeb into NoSlow and improved Timer mode
+- Added DynamicColor to Break Render in Interactions - changes block color between green and red as it’s being mined
+- Added ShowName to Break Render Interactions - shows name of player mining block
+- Improved RubberFill on 2b2t
 
-#### Protocol
-- Added ViaVersion (1.7-1.17, going lower than 1.7 compleatly breaks everything so we removed the option)
-- Added protocol slider in Multiplayer GUI
+### 0.10.1 Changes
+- Added Filter to RubberFill
+- Replaced Security and Compromise in AutoCrystal with MaxBreakDamage - maximum self damage for breaking enemy crystals
+- Improved consistency of AutoCrystal when using Mobile Internet
+- Merged BoatPlace into FastUse GhostFix
 
-This is very experimental, and some modules will crash you on certain versions. Use at your own risk. 0.7 will add lots of modules/options for 1.8.
+### 0.10 Changes
+- Added Android Compatibility (certain modules such as RPC, Chams, and Shader ESP might not work as intended)
+- Improved AutoWeb
+- Fixed RP and Main Menu Discord Invite URL
+- Made PacketFly Factor Smoother
+- Improved Rendering on Macs
+- Removed NoDesync InvalidPackets, added it into ViaVersion implementation along with other optimizations
+- Added Limit to NoDesync - prevents you from flagging MorePackets in the long term
+- Added AutoSwap to PacketMine
+- Added ThroughWalls option to MiddleClick Menu
+- Added ShowSwapping option to OldAnimations
+- Fixed FastUse Fast Placing when Offhand GApping
+- Added OnlyLast option to DeathWaypoints
+- Added OneLine option to Macros
+- Added OneLine option to VisualRange
+- Added Mainhand and Opposite mode to Swing
+- Added NoRender Armor Select mode
+- Added EntitySpeed
+- Added Breadcrums command - save, load, and clear your breadcrums path. Saved paths can be found in minecraft/Konas/breadcrums
+- Added Timer option to FastFall
+- Added Silent mode to AutoTool for mining
+- Reworked AltManager for better performance and added Microsoft account support
+- Added NameMC command
+- Fixed Rusher Plus Compatability
+- Added NoRender maps. This does not prevent chunk bans, but does prevent game crashes
+- Added Delay to Offhand
+- Fixed Surround on Non-Full blocks such as Chests
+- Added Binds option to ClickGUI
+- Renamed AntiLevitation to AntiEffects and added Jump Boost option (this will not work on most servers)
+- Added AllowMend option to AutoArmor
+- Added AntiRacism option to ExtraChat
+- Added Signs to NoRender
+- Added offset to colors (.set module colorsetting offset x)
+- Added ColorSigns
+- Added Float to AntiVoid
+- Increaced max AutoRecconect delay to 30
+- Added Skulls option to RubberFill
+- Added Self mode to Vulnerability HoleESP
+- Added Chat and Toasts to NoRender
+- Added AntiBookBan
+- Added Viewport
+- Added FreecamCoords option to Coords HUD Component
+- Fixed Freecam not updating the player’s movement input state
+- Added RayTrace option to HoleFill
+- Added Facing option to BlockHighlight
+- Added Facing option to Trajectories
+- Added Separate VoidESP colors for open and covered void holes
+- Added Click sounds to ClickGUI
+- Added Motion adjustment options to Crosshair
+- Added Lines Full, Bottom, and Top options to HoleESP
+- Added Glide option to NoSlow
+- Reworked PacketMine and added Queue
+- Added Center option to Anchor
+- Made AutoEat check Offhand for valid food items
+- Added Filter to Nuker
+- Added .watermark command
+- Improved Crash Reports
+- Added Better to Boost ElytraFly
