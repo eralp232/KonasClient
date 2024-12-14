@@ -12,20 +12,22 @@ The following versions are available:
 
 | Version    | Additional Info |
 | -------- | ------- |
-|0.8|Konas with a simplified ClickGUI, free of the Aimware-styled GUI.|
+|0.8|Konas with a simplified ClickGUI, free of the Aimware-styled GUI. |
 |0.10.5|Built from source, representing the latest version of the old Konas. |
 |1.0.1|The most recent, free and available version of the new Konas.  |
-|Website|Includes the source code for the konasclient.com website and other files..|
+|Website|Includes the source code for the konasclient.com website and other files. |
+
+<br/>
 
 # Usage
 
-1. Download the jar file from the **Releases** page.
+Download the jar file from the **Releases** page.
    
-2. Place the jar file in your `.minecraft/mods` folder.
+Place the jar file in your `.minecraft/mods` folder.
    
-3. Add `-noverify` to your JVM arguments.
+Add `-noverify` to your JVM arguments.
  
-4. Launch the game with **1.12.2 Forge**.
+Launch the game with **1.12.2 Forge**.
 
 <br/>
 
