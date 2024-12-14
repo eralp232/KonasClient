@@ -17,8 +17,6 @@ The following versions are available:
 |1.0.1|The most recent, free and available version of the new Konas.  |
 |Website|Includes the source code for the konasclient.com website and other files..|
 
-<br/>
-
 # Usage
 
 1. Download the jar file from the **Releases** page.
