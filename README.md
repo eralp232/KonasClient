@@ -36,6 +36,8 @@ Konas Client has been discontinued for quite some time now, so this repository w
 
 There are a few bugs in version 0.8, and crashes might occur. It seems that the most stable versions are either 0.10.5 or 1.0.1. However, in terms of appearance and aesthetics, I still prefer version 0.8.
 
+**Note:** The source code may contain bugs, but it should still function as expected. If you encounter any errors, please note that I cannot provide support or assistance.
+
 <br/>
 
 </div>
